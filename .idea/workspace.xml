@@ -2,11 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5dcf663-5ad5-4578-8c97-cf3d745da673" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/rate_limit/token_bucket.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/rate_limit/token_bucket_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/sort/bubble_sort.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/sort/bubble_sort_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grpc/grpc_client.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grpc/grpc_server.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grpc/grpc_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grpc/pbs/message.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/daily-exercise.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/daily-exercise.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,8 +39,14 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/grpc/pbs" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="go.vgo" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/grpc/pbs" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -50,7 +60,38 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Go Test.TestClient in github.com/rachihoaoi/daily-exercise.git/grpc">
+    <configuration name="TestBubbleSort in github.com/rachihoaoi/daily-exercise.git/algorithm/sort" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="daily-exercise" />
+      <working_directory value="$PROJECT_DIR$/algorithm/sort" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="github.com/rachihoaoi/daily-exercise.git/algorithm/sort" />
+      <pattern value="^TestBubbleSort$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestClient in github.com/rachihoaoi/daily-exercise.git/grpc" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="daily-exercise" />
+      <working_directory value="$PROJECT_DIR$/grpc" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="github.com/rachihoaoi/daily-exercise.git/grpc" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestClient$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestIstio in github.com/rachihoaoi/daily-exercise.git/algorithm/sort" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="daily-exercise" />
+      <working_directory value="$PROJECT_DIR$/algorithm/sort" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="github.com/rachihoaoi/daily-exercise.git/algorithm/sort" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestIstio$" />
+      <method v="2" />
+    </configuration>
     <configuration name="TestNewTokenBucket in token_bucket_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="daily-exercise" />
       <working_directory value="$PROJECT_DIR$/algorithm/rate_limit" />
@@ -60,9 +101,24 @@
       <pattern value="^TestNewTokenBucket$" />
       <method v="2" />
     </configuration>
+    <configuration name="TestUnaryClient in github.com/rachihoaoi/daily-exercise.git/grpc" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="daily-exercise" />
+      <working_directory value="$PROJECT_DIR$/grpc" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="github.com/rachihoaoi/daily-exercise.git/grpc" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestUnaryClient$" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestClient in github.com/rachihoaoi/daily-exercise.git/grpc" />
+        <item itemvalue="Go Test.TestUnaryClient in github.com/rachihoaoi/daily-exercise.git/grpc" />
         <item itemvalue="Go Test.TestNewTokenBucket in token_bucket_test.go" />
+        <item itemvalue="Go Test.TestIstio in github.com/rachihoaoi/daily-exercise.git/algorithm/sort" />
+        <item itemvalue="Go Test.TestBubbleSort in github.com/rachihoaoi/daily-exercise.git/algorithm/sort" />
       </list>
     </recent_temporary>
   </component>
@@ -74,7 +130,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

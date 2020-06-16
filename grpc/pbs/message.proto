@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+package search;
+option go_package = "pbs"; // 指定 golang 扩展生成包名
+
+service Sample {
+    rpc UnaryService(Req) returns (Resp);
+    rpc ServerSideStreaming(Req) returns (stream Resp);
+    rpc ClientSideStreaming(stream Req) returns (Resp);
+    rpc BidirectionalStreaming(stream Req) returns (stream Resp);
+}
+
+message Req {
+    string message = 1;
+}
+
+message Resp {
+    string result = 1;
+}
