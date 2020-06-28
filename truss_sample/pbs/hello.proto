@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+package pb;
+
+import "github.com/metaverse/truss/deftree/googlethirdparty/annotations.proto";
+
+service Greeting {
+    rpc SayHello (SayHelloRequest) returns (SayHelloResponse) {
+        option (google.api.http) = {
+            get: "/v1/greeting/hello"
+        };
+    }
+}
+
+message SayHelloRequest {
+    string person_name = 1;
+}
+
+message SayHelloResponse {
+    string sentence = 1;
+}

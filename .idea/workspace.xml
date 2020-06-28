@@ -2,15 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5dcf663-5ad5-4578-8c97-cf3d745da673" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/algorithm/sort/bubble_sort.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/sort/bubble_sort_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grpc/grpc_client.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grpc/grpc_server.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grpc/grpc_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grpc/pbs/message.proto" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/daily-exercise.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/daily-exercise.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/lru/lru.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/lru/lru_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/sort/quick_sort.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/sort/quick_sort_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_structure/doubleLinkedList/doubleLinkList.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_structure/doubleLinkedList/doubleLinkList_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_structure/tree/tree.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tracing/jaeger.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tracing/jeager_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/truss_sample/cmd/start.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/truss_sample/cmd/start_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/truss_sample/internal/hello/cmd/greeting/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/truss_sample/internal/hello/handlers/handlers.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/truss_sample/internal/hello/handlers/hooks.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/truss_sample/internal/hello/handlers/middlewares.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/truss_sample/internal/hello/svc/client/grpc/client.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/truss_sample/internal/hello/svc/client/http/client.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/truss_sample/internal/hello/svc/endpoints.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/truss_sample/internal/hello/svc/server/run.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/truss_sample/internal/hello/svc/transport_grpc.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/truss_sample/internal/hello/svc/transport_http.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/truss_sample/middlewares/tracingMiddleware.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/truss_sample/middlewares/verifySignatureMiddleware.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/truss_sample/pbs/hello.pb.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/truss_sample/pbs/hello.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/truss_sample/utils/mysql.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/truss_sample/utils/redis.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,12 +60,20 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/grpc/pbs" />
+    <property name="last_opened_file_path" value="$USER_HOME$" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="go.vgo" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/data_structure/tree" />
+      <recent name="$PROJECT_DIR$/gokit_sample" />
+      <recent name="$PROJECT_DIR$/truss_sample" />
+      <recent name="$PROJECT_DIR$/truss/internal/truss" />
+      <recent name="$PROJECT_DIR$/truss/internal" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/tracing/pbs" />
       <recent name="$PROJECT_DIR$/grpc/pbs" />
     </key>
   </component>
@@ -60,65 +89,65 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Test.TestClient in github.com/rachihoaoi/daily-exercise.git/grpc">
-    <configuration name="TestBubbleSort in github.com/rachihoaoi/daily-exercise.git/algorithm/sort" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Test.TestQuickSort in github.com/rachihoaoi/daily-exercise.git/algorithm/sort">
+    <configuration name="go build github.com/rachihoaoi/daily-exercise.git/truss_sample/hello-service/cmd/hello" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="daily-exercise" />
-      <working_directory value="$PROJECT_DIR$/algorithm/sort" />
-      <framework value="gotest" />
+      <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="github.com/rachihoaoi/daily-exercise.git/algorithm/sort" />
-      <pattern value="^TestBubbleSort$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="TestClient in github.com/rachihoaoi/daily-exercise.git/grpc" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="daily-exercise" />
-      <working_directory value="$PROJECT_DIR$/grpc" />
-      <framework value="gotest" />
-      <kind value="PACKAGE" />
-      <package value="github.com/rachihoaoi/daily-exercise.git/grpc" />
+      <filePath value="$PROJECT_DIR$/truss_sample/hello-service/cmd/hello/main.go" />
+      <package value="github.com/rachihoaoi/daily-exercise.git/truss_sample/hello-service/cmd/hello" />
       <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestClient$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestIstio in github.com/rachihoaoi/daily-exercise.git/algorithm/sort" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="daily-exercise" />
-      <working_directory value="$PROJECT_DIR$/algorithm/sort" />
-      <framework value="gotest" />
-      <kind value="PACKAGE" />
-      <package value="github.com/rachihoaoi/daily-exercise.git/algorithm/sort" />
-      <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestIstio$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="TestNewTokenBucket in token_bucket_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="daily-exercise" />
-      <working_directory value="$PROJECT_DIR$/algorithm/rate_limit" />
-      <framework value="gotest" />
+      <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/algorithm/rate_limit/token_bucket_test.go" />
-      <pattern value="^TestNewTokenBucket$" />
+      <filePath value="$PROJECT_DIR$/truss_sample/hello-service/cmd/hello/main.go" />
+      <package value="github.com/rachihoaoi/daily-exercise.git" />
+      <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="TestUnaryClient in github.com/rachihoaoi/daily-exercise.git/grpc" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestJaeger in github.com/rachihoaoi/daily-exercise.git/tracing" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="daily-exercise" />
-      <working_directory value="$PROJECT_DIR$/grpc" />
+      <working_directory value="$PROJECT_DIR$/tracing" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
-      <package value="github.com/rachihoaoi/daily-exercise.git/grpc" />
+      <package value="github.com/rachihoaoi/daily-exercise.git/tracing" />
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestUnaryClient$" />
+      <pattern value="^TestJaeger$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestQuickSort in github.com/rachihoaoi/daily-exercise.git/algorithm/sort" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="daily-exercise" />
+      <working_directory value="$PROJECT_DIR$/algorithm/sort" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="github.com/rachihoaoi/daily-exercise.git/algorithm/sort" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestQuickSort$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestRun in github.com/rachihoaoi/daily-exercise.git/truss_sample/cmd" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="daily-exercise" />
+      <working_directory value="$PROJECT_DIR$/truss_sample/cmd" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="github.com/rachihoaoi/daily-exercise.git/truss_sample/cmd" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestRun$" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Test.TestClient in github.com/rachihoaoi/daily-exercise.git/grpc" />
-        <item itemvalue="Go Test.TestUnaryClient in github.com/rachihoaoi/daily-exercise.git/grpc" />
-        <item itemvalue="Go Test.TestNewTokenBucket in token_bucket_test.go" />
-        <item itemvalue="Go Test.TestIstio in github.com/rachihoaoi/daily-exercise.git/algorithm/sort" />
-        <item itemvalue="Go Test.TestBubbleSort in github.com/rachihoaoi/daily-exercise.git/algorithm/sort" />
+        <item itemvalue="Go Test.TestQuickSort in github.com/rachihoaoi/daily-exercise.git/algorithm/sort" />
+        <item itemvalue="Go Test.TestRun in github.com/rachihoaoi/daily-exercise.git/truss_sample/cmd" />
+        <item itemvalue="Go Test.TestJaeger in github.com/rachihoaoi/daily-exercise.git/tracing" />
+        <item itemvalue="Go Build.go build main.go" />
+        <item itemvalue="Go Build.go build github.com/rachihoaoi/daily-exercise.git/truss_sample/hello-service/cmd/hello" />
       </list>
     </recent_temporary>
   </component>
